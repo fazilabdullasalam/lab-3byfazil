@@ -1,0 +1,85 @@
+/* 1.) Simple reset using universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 2.) Add padding, border and margin to .box */
+.box {
+  padding: 35px;
+  border: 15px solid black;
+  margin: 30px;
+}
+
+/* 3.) Different padding, border and margin on different sides of .box */
+.box {
+  padding-top: 45px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 15px;
+  border-top: 20px solid pink;
+  border-bottom: 10px solid lightblue;
+  border-left: 5px dotted skyblue;
+  border-right: 25px dotted lightgreen;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+/* 4.) Set height and width on .box */
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+/* 5.) Add box-sizing: border-box to universal selector */
+* {
+  box-sizing: border-box;
+}
+/* 7.) Remove height and width on .box and set height and background-color on .container */
+.container {
+  height: 100px;
+  background-color: orange;
+}
+.box {
+  height: auto;
+  width: auto;
+}
+
+/* 8.) Add overflow to .container */
+.container {
+  overflow: scroll;
+  /* overflow: hidden; */
+}
+
+/* 9.) Change width on .container and .box */
+.container {
+  width: 50%;
+}
+.box {
+  width: 25%;
+}
+
+/* 10.) Change width on .container and .box */
+.container {
+  width: 300px;
+}
+.box {
+  width: 600px;
+}
+
+/* 11.) Add overflow back to .container */
+.container {
+  overflow: scroll;
+  /* overflow: hidden; */
+}
+
+/* 12.) Add .box2 to .container */
+.container {
+  margin-bottom: 25px;
+}
+.box2 {
+  margin-top: 70px;
+}
+
